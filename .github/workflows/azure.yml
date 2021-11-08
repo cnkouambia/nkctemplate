@@ -3,6 +3,7 @@ name: NKC Azure ARM
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    environment: developpement    
     steps:
 
       # Checkout code

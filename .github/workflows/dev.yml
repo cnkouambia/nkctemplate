@@ -1,5 +1,5 @@
 on: [push]
-name: NKC Azure ARM
+name: NKC Azure ARM DEV
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
